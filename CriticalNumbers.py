@@ -18,8 +18,8 @@ def diffEquation(equation):
 
 #TODO: Lav Approx til tallet, derfra tag den til Newtons metode for at komme tættere på
 def findCriticalNumbers(min, max, change, equation):
-    total = min
-    tempAlpha = min
+    total = min;
+    tempAlpha = min;
     while total != max:
         tempAlpha = diffEquation(equation)
         total = total + change;
